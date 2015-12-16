@@ -1,4 +1,4 @@
-package com.zhaoxuan.simpleorm.support;
+package com.zhaoxuan.ormdemo.support;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

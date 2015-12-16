@@ -1,4 +1,4 @@
-package com.zhaoxuan.simpleorm;
+package com.zhaoxuan.ormdemo;
 
 /**
  * Created by lizhaoxuan on 15/11/5.

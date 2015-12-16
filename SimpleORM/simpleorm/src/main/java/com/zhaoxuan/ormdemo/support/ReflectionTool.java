@@ -1,4 +1,4 @@
-package com.zhaoxuan.simpleorm.support;
+package com.zhaoxuan.ormdemo.support;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

@@ -1,4 +1,4 @@
-package com.zhaoxuan.simpleorm.support;
+package com.zhaoxuan.ormdemo.support;
 
 /**
  * 驼峰字符串与下划线命名字符串互转

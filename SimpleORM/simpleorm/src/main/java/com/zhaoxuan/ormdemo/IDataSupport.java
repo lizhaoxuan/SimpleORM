@@ -1,4 +1,4 @@
-package com.zhaoxuan.simpleorm;
+package com.zhaoxuan.ormdemo;
 
 import java.util.ArrayList;
 import java.util.List;

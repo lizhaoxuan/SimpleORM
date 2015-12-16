@@ -1,4 +1,4 @@
-package com.zhaoxuan.simpleorm;
+package com.zhaoxuan.ormdemo;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,9 +6,9 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.zhaoxuan.simpleorm.support.DatabaseHelper;
-import com.zhaoxuan.simpleorm.support.FieldCache;
-import com.zhaoxuan.simpleorm.support.ReflectionTool;
+import com.zhaoxuan.ormdemo.support.DatabaseHelper;
+import com.zhaoxuan.ormdemo.support.FieldCache;
+import com.zhaoxuan.ormdemo.support.ReflectionTool;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

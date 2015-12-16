@@ -1,4 +1,4 @@
-package com.zhaoxuan.simpleorm.support;
+package com.zhaoxuan.ormdemo.support;
 
 import android.support.v4.util.ArrayMap;
 

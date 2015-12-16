@@ -1,4 +1,4 @@
-package com.zhaoxuan.simpleorm;
+package com.zhaoxuan.ormdemo;
 
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void initView() {
-        dataSupport = DataSupport.getInstance(DemoApplication.getInstance());
+        dataSupport = DataSupport.getInstance(OrmApplication.getInstance());
 
         mListView = (ListView) findViewById(R.id.listView);
         mResultText = (TextView) findViewById(R.id.resultText);
