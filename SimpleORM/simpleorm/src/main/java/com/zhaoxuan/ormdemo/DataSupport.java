@@ -213,6 +213,8 @@ public class DataSupport implements IDataSupport {
             cv.put(name, (int) object);
         } else if (type.contains("double")) {
             cv.put(name, (double) object);
+        } else if (type.contains("boolean")) {
+            cv.put(name, (boolean) object);
         }
     }
 
@@ -231,6 +233,8 @@ public class DataSupport implements IDataSupport {
             return cursor.getInt(cursor.getColumnIndex(name));
         } else if (type.contains("double")) {
             return cursor.getDouble(cursor.getColumnIndex(name));
+        } else if (type.contains("boolean")) {
+            return cursor.getBlob(cursor.getColumnIndex(name));
         } else {
             Log.w(TAG, "getValue 无合适类型，为Null了  " + type);
             return null;
