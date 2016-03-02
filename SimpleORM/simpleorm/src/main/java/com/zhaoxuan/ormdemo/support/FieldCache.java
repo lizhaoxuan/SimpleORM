@@ -24,7 +24,6 @@ public class FieldCache {
     /**
      * 取得Filed type缓存，如果不存在，则获取
      * Filed、FiledName 和FiledType是同时获取，某个不存在，则都不存在
-     *
      * @param clazz class类
      */
     public ArrayList<Field> getFields(Class clazz) {
@@ -59,7 +58,6 @@ public class FieldCache {
 
     /**
      * 增加新的属性缓存
-     *
      * @param fields 字段
      * @param names  字段名
      * @param types  字段类型
@@ -74,7 +72,6 @@ public class FieldCache {
 
     /**
      * 取得Class 下划线式命名，避免重复判断
-     *
      * @param clazz class 类
      * @return 下划线格式类名
      */

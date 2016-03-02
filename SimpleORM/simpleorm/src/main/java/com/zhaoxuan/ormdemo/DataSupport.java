@@ -16,7 +16,6 @@ import java.util.List;
 
 /**
  * ORM 数据库操作类
- * <p/>
  * Created by lizhaoxuan on 15/11/5.
  */
 public class DataSupport implements IDataSupport {
