@@ -1,9 +1,8 @@
 package com.zhaoxuan.ormdemo.support;
 
-import android.support.v4.util.ArrayMap;
-
 import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * 类属性、类属性类型、类名缓存。
@@ -12,18 +11,19 @@ import java.util.ArrayList;
  */
 public class FieldCache {
 
-    private ArrayMap<Class, ArrayList<Field>> fieldCache = new ArrayMap<>();
+    private HashMap<Class, ArrayList<Field>> fieldCache = new HashMap<>();
 
-    private ArrayMap<Class, ArrayList<String>> fieldNameCache = new ArrayMap<>();
+    private HashMap<Class, ArrayList<String>> fieldNameCache = new HashMap<>();
 
-    private ArrayMap<Class, ArrayList<String>> typeCache = new ArrayMap<>();
+    private HashMap<Class, ArrayList<String>> typeCache = new HashMap<>();
 
-    private ArrayMap<Class, String> classCache = new ArrayMap<>();
+    private HashMap<Class, String> classCache = new HashMap<>();
 
 
     /**
      * 取得Filed type缓存，如果不存在，则获取
      * Filed、FiledName 和FiledType是同时获取，某个不存在，则都不存在
+     *
      * @param clazz class类
      */
     public ArrayList<Field> getFields(Class clazz) {
@@ -58,6 +58,7 @@ public class FieldCache {
 
     /**
      * 增加新的属性缓存
+     *
      * @param fields 字段
      * @param names  字段名
      * @param types  字段类型
@@ -72,6 +73,7 @@ public class FieldCache {
 
     /**
      * 取得Class 下划线式命名，避免重复判断
+     *
      * @param clazz class 类
      * @return 下划线格式类名
      */

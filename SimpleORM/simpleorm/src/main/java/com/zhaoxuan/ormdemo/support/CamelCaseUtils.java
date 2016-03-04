@@ -2,7 +2,6 @@ package com.zhaoxuan.ormdemo.support;
 
 /**
  * 驼峰字符串与下划线命名字符串互转
- *
  * Created by lizhaoxuan on 15/11/5.
  */
 public class CamelCaseUtils {
@@ -42,6 +41,7 @@ public class CamelCaseUtils {
 
         return sb.toString();
     }
+
     /**
      * 转为驼峰命名
      */
