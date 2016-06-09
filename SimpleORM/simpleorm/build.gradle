@@ -1,27 +1,9 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'simpleORM'
-
-    publishedGroupId = 'com.factory.zhaoxuan'
-    libraryName = 'simpleOrm'
-    artifact = 'simple-orm'
-
-    libraryDescription = '一个轻简的 Android ORM数据库框架 '
-
-    siteUrl = 'https://github.com/alibaba/AndFix'
-    gitUrl = 'https://github.com/alibaba/AndFix.git'
-
-    libraryVersion = '0.0.1'
-
-    developerId = 'zhaoxuan'
-    developerName = 'lizhaoxuan'
-    developerEmail = 'uit_lizhaoxuan@163.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
+    PUBLISH_GROUP_ID = 'com.github.zhaoxuan'
+    PUBLISH_ARTIFACT_ID = 'simple-orm'
+    PUBLISH_VERSION = '0.2.0'
 }
 
 android {
@@ -47,5 +29,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
 }
-apply from: 'https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle'
+
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
